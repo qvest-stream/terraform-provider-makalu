@@ -3,12 +3,12 @@
 page_title: "makalu_mosdevice Resource - terraform-provider-makalu"
 subcategory: ""
 description: |-
-  Filetransfer Credential Resource
+  Mos Device Resource
 ---
 
 # makalu_mosdevice (Resource)
 
-Filetransfer Credential Resource
+Mos Device Resource
 
 
 

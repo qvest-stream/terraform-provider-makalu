@@ -26,7 +26,7 @@ returned by the ConfigStore API.
 
 ### Required
 
-- `spec` (String) JSON specification of the channel which is *send to* the ConfigStore API
+- `spec` (String) JSON specification of the channel. It is *sent to* the ConfigStore API V2 (`CreateOrUpdateChannelV2`) unchanged, including keys the provider does not know (e.g. fields added in newer ConfigStore versions). `DeploymentId` is required and immutable.
 
 ### Read-Only
 
